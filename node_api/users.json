@@ -1,0 +1,16 @@
+[{
+  "user_id": "66d2f73d9c8fc79e2c101f34",
+  "var_email": "admin@demo.com",
+  "var_mobile_no": "9999999123",
+  "var_name": "admin",
+  "var_password": "$2b$05$G5/P2OK/hLkn5.ytqXOffO3erxoeNZQCJISGvrruc5AUIjJVNlcki",
+  "chr_verify": "false",
+  "chr_gender": "",
+  "var_dob": "",
+  "created_date": "31 Aug, 2024 16:28:05",
+  "updated_date": "31 Aug, 2024 16:28:05",
+  "is_active": true,
+  "role_id": "65dc71f9ef27af122a783348",
+  "user_type": "admin",
+  "__v": 0
+}]

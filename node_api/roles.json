@@ -1,0 +1,793 @@
+[{
+  "_id": {
+    "$oid": "65dc71d7ef27af122a783347"
+  },
+  "role": "admin",
+  "type": "admin",
+  "lable": "Admin",
+  "desc": "",
+  "int_glcode": "65dc71d7ef27af122a783347",
+  "is_active": true,
+  "roles": [
+    "dashboard"
+  ],
+  "subroles": [
+    {
+      "id": 1,
+      "title": "Dashboard",
+      "code": "dashboard",
+      "selected": true,
+      "routes": [
+        "dashboard"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "User Management",
+      "code": "user-management",
+      "selected": true,
+      "routes": [
+        "users",
+        "add-user",
+        "rols"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Category Management",
+      "code": "category-management",
+      "selected": true,
+      "routes": [
+        "categories",
+        "parentcategories",
+        "subcategories",
+        "addsubcategories"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Brand Management",
+      "code": "brand-management",
+      "selected": true,
+      "routes": [
+        "brands",
+        "addbrand"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tag Management",
+      "code": "tag-management",
+      "selected": true,
+      "routes": [
+        "tags",
+        "addtag"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Attributes Management",
+      "code": "attributes-management",
+      "selected": true,
+      "routes": [
+        "attributes",
+        "addattribute",
+        "attributesvalues",
+        "addattributevalue"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Product Management",
+      "code": "product-management",
+      "selected": true,
+      "routes": [
+        "producst",
+        "attributes",
+        "plist"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Order List",
+      "code": "orderlist",
+      "selected": true,
+      "routes": [
+        "orders",
+        "olist",
+        "orejection"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Order Rejection Reasons",
+      "code": "order-rejection-reasons",
+      "selected": true,
+      "routes": [
+        "orejection"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Banner Image",
+      "code": "banner-image",
+      "selected": true,
+      "routes": [
+        "bannsers",
+        "bannerImages",
+        "offerbanner"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Offer Banner Image",
+      "code": "offer-banner-image",
+      "selected": true,
+      "routes": [
+        "offer-banners",
+        "add-offer-banner"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Delivery Boy List",
+      "code": "delivery-boy-list",
+      "selected": true,
+      "routes": [
+        "deviveries",
+        "dblist"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Delivery Charge",
+      "code": "delivery-charge",
+      "selected": true,
+      "routes": [
+        "deviveries",
+        "dvcharges"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Rider Withdraw Request",
+      "code": "rider-withdraw-request",
+      "selected": true,
+      "routes": [
+        "deviveries",
+        "timeslots"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Delivery Time Slots",
+      "code": "delivery-time-slots",
+      "selected": true,
+      "routes": [
+        "timeslots"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Promocode",
+      "code": "promocode",
+      "selected": true,
+      "routes": [
+        "promocode",
+        "offers"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Refferal Code Cashback",
+      "code": "refferal-code-cashback",
+      "selected": true
+    },
+    {
+      "id": 18,
+      "title": "Newsletter Management",
+      "code": "newsletter-management",
+      "selected": true,
+      "routes": [
+        "newsletter",
+        "others"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Feedback Management",
+      "code": "feedback-management",
+      "selected": true,
+      "routes": [
+        "others",
+        "contactus"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Contact MAnagement",
+      "code": "contact-management",
+      "selected": true,
+      "routes": [
+        "contacts"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Settings",
+      "code": "settings",
+      "selected": true,
+      "routes": [
+        "setting"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Image",
+      "code": "images",
+      "selected": true,
+      "routes": [
+        "images"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Stock Management",
+      "code": "stockmmm",
+      "selected": true,
+      "routes": [
+        "stockmanagement"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65dc71f9ef27af122a783348"
+  },
+  "role": "super-admin",
+  "type": "admin",
+  "lable": "Super Admin",
+  "desc": "",
+  "int_glcode": "65dc71f9ef27af122a783348",
+  "is_active": true,
+  "roles": [
+    "dashboard"
+  ],
+  "subroles": [
+    {
+      "id": 1,
+      "title": "Dashboard",
+      "code": "dashboard",
+      "selected": true,
+      "routes": [
+        "dashboard"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "User Management",
+      "code": "user-management",
+      "selected": true,
+      "routes": [
+        "users",
+        "add-user",
+        "rols"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Category Management",
+      "code": "category-management",
+      "selected": true,
+      "routes": [
+        "categories",
+        "parentcategories",
+        "subcategories",
+        "addsubcategories"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Brand Management",
+      "code": "brand-management",
+      "selected": true,
+      "routes": [
+        "brands",
+        "addbrand"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tag Management",
+      "code": "tag-management",
+      "selected": true,
+      "routes": [
+        "tags",
+        "addtag"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Attributes Management",
+      "code": "attributes-management",
+      "selected": true,
+      "routes": [
+        "attributes",
+        "addattribute",
+        "attributesvalues",
+        "addattributevalue"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Product Management",
+      "code": "product-management",
+      "selected": true,
+      "routes": [
+        "producst",
+        "attributes",
+        "plist"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Order List",
+      "code": "orderlist",
+      "selected": true,
+      "routes": [
+        "orders",
+        "olist",
+        "orejection"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Order Rejection Reasons",
+      "code": "order-rejection-reasons",
+      "selected": true,
+      "routes": [
+        "orejection"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Banner Image",
+      "code": "banner-image",
+      "selected": true,
+      "routes": [
+        "bannsers",
+        "bannerImages",
+        "offerbanner"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Offer Banner Image",
+      "code": "offer-banner-image",
+      "selected": true,
+      "routes": [
+        "offer-banners",
+        "add-offer-banner"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Delivery Boy List",
+      "code": "delivery-boy-list",
+      "selected": true,
+      "routes": [
+        "deviveries",
+        "dblist"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Delivery Charge",
+      "code": "delivery-charge",
+      "selected": true,
+      "routes": [
+        "deviveries",
+        "dvcharges"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Rider Withdraw Request",
+      "code": "rider-withdraw-request",
+      "selected": true,
+      "routes": [
+        "deviveries",
+        "timeslots"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Delivery Time Slots",
+      "code": "delivery-time-slots",
+      "selected": true,
+      "routes": [
+        "timeslots"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Promocode",
+      "code": "promocode",
+      "selected": true,
+      "routes": [
+        "promocode",
+        "offers"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Refferal Code Cashback",
+      "code": "refferal-code-cashback",
+      "selected": true
+    },
+    {
+      "id": 18,
+      "title": "Newsletter Management",
+      "code": "newsletter-management",
+      "selected": true,
+      "routes": [
+        "newsletter",
+        "others"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Feedback Management",
+      "code": "feedback-management",
+      "selected": true,
+      "routes": [
+        "others",
+        "contactus"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Contact MAnagement",
+      "code": "contact-management",
+      "selected": true,
+      "routes": [
+        "contacts"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Settings",
+      "code": "settings",
+      "selected": true,
+      "routes": [
+        "setting"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Image",
+      "code": "images",
+      "selected": true,
+      "routes": [
+        "images"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Stock Management",
+      "code": "stockm",
+      "selected": true,
+      "routes": [
+        "stock-management"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66064611f9d0e7784e75bd0c"
+  },
+  "role": "admin",
+  "type": "admin",
+  "int_glcode": "66064611f9d0e7784e75bd0c",
+  "desc": "",
+  "is_active": true,
+  "lable": "Accountant",
+  "subroles": [
+    {
+      "id": 1,
+      "title": "Dashboard",
+      "code": "dashboard",
+      "selected": true,
+      "routes": [
+        "dashboard"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "User Management",
+      "code": "user-management",
+      "selected": true,
+      "routes": [
+        "users",
+        "add-user",
+        "rols"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Attributes Management",
+      "code": "attributes-management",
+      "selected": true,
+      "routes": [
+        "attributes",
+        "addattribute",
+        "attributesvalues",
+        "addattributevalue"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Product Management",
+      "code": "product-management",
+      "selected": true,
+      "routes": [
+        "producst",
+        "attributes",
+        "plist"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Settings",
+      "code": "settings",
+      "selected": true,
+      "routes": [
+        "setting"
+      ]
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66b1a9478ec0eafaaabad3fe"
+  },
+  "role": "admin",
+  "type": "admin",
+  "int_glcode": "66b1a9478ec0eafaaabad3fe",
+  "desc": "",
+  "is_active": false,
+  "lable": "General Manager",
+  "subroles": [
+    {
+      "id": 1,
+      "title": "Dashboard",
+      "code": "dashboard",
+      "selected": true,
+      "routes": [
+        "dashboard"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "User Management",
+      "code": "user-management",
+      "selected": true,
+      "routes": [
+        "users",
+        "add_user",
+        "rols"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Category Management",
+      "code": "category-management",
+      "selected": true,
+      "routes": [
+        "categories",
+        "parentcategories",
+        "subcategories",
+        "addsubcategories"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Brand Management",
+      "code": "brand-management",
+      "selected": true,
+      "routes": [
+        "brands",
+        "addbrand"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Tag Management",
+      "code": "tag-management",
+      "selected": true,
+      "routes": [
+        "tags",
+        "addtag"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Attributes Management",
+      "code": "attributes-management",
+      "selected": true,
+      "routes": [
+        "attributes",
+        "addattribute",
+        "attributesvalues",
+        "addattributevalue"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Product Management",
+      "code": "product-management",
+      "selected": true,
+      "routes": [
+        "producst",
+        "attributes",
+        "plist"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Order List",
+      "code": "orderlist",
+      "selected": true,
+      "routes": [
+        "orders",
+        "olist",
+        "orejection"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Order Rejection Reasons",
+      "code": "order-rejection-reasons",
+      "selected": true,
+      "routes": [
+        "orejection"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Banner Image",
+      "code": "banner-image",
+      "selected": true,
+      "routes": [
+        "bannsers",
+        "bannerImages",
+        "offerbanner"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Offer Banner Image",
+      "code": "offer-banner-image",
+      "selected": true,
+      "routes": [
+        "offer_banners",
+        "add_offer_banner"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Delivery Boy List",
+      "code": "delivery-boy-list",
+      "selected": true,
+      "routes": [
+        "deviveries",
+        "dblist"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Delivery Charge",
+      "code": "delivery-charge",
+      "selected": true,
+      "routes": [
+        "deviveries",
+        "dvcharges"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Rider Withdraw Request",
+      "code": "rider-withdraw-request",
+      "selected": true,
+      "routes": [
+        "deviveries",
+        "timeslots"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Delivery Time Slots",
+      "code": "delivery-time-slots",
+      "selected": true,
+      "routes": [
+        "timeslots"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Promocode",
+      "code": "promocode",
+      "selected": true,
+      "routes": [
+        "promocode",
+        "offers"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Refferal Code Cashback",
+      "code": "refferal-code-cashback",
+      "selected": true
+    },
+    {
+      "id": 18,
+      "title": "Newsletter Management",
+      "code": "newsletter-management",
+      "selected": true,
+      "routes": [
+        "newsletter",
+        "others"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Feedback Management",
+      "code": "feedback-management",
+      "selected": true,
+      "routes": [
+        "others",
+        "contactus"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Contact MAnagement",
+      "code": "contact-management",
+      "selected": true,
+      "routes": [
+        "contacts"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Settings",
+      "code": "settings",
+      "selected": true,
+      "routes": [
+        "setting"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Image",
+      "code": "images",
+      "selected": true,
+      "routes": [
+        "images"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Stock Management",
+      "code": "stockmmm",
+      "selected": true,
+      "routes": [
+        "stockmanagement"
+      ]
+    }
+  ],
+  "__v": 0
+}]
